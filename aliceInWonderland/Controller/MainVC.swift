@@ -72,6 +72,7 @@ class MainVC: UIViewController {
                 self.loginActivitySpinner.isHidden = true
                 self.loginEmailTextField.text = ""
                 self.loginPasswordTextField.text = ""
+                self.loginBtn.isEnabled = true
             }
         }
     }
@@ -102,6 +103,7 @@ class MainVC: UIViewController {
                 self.signupNameTextField.text = ""
                 self.signupEmailTextField.text = ""
                 self.signupPasswordTextField.text = ""
+                self.signupBtn.isEnabled = true
             }
         }
     }
