@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		0E393D7D206AB2B70042320D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E393D7C206AB2B70042320D /* AppDelegate.swift */; };
-		0E393D7F206AB2B70042320D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E393D7E206AB2B70042320D /* ViewController.swift */; };
+		0E393D7F206AB2B70042320D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E393D7E206AB2B70042320D /* MainVC.swift */; };
 		0E393D82206AB2B70042320D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E393D80206AB2B70042320D /* Main.storyboard */; };
 		0E393D84206AB2B70042320D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E393D83206AB2B70042320D /* Assets.xcassets */; };
 		0E393D87206AB2B70042320D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E393D85206AB2B70042320D /* LaunchScreen.storyboard */; };
+		0E393D92206AB56A0042320D /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E393D91206AB56A0042320D /* RoundedButton.swift */; };
+		0E393D95206ABFFF0042320D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E393D94206ABFFF0042320D /* AuthService.swift */; };
+		0E393D98206AC2F30042320D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E393D97206AC2F30042320D /* Constants.swift */; };
+		0E393D9A206ADED80042320D /* FetchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E393D99206ADED80042320D /* FetchVC.swift */; };
+		0ED70EC9206B92E500E474E9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED70EC8206B92E500E474E9 /* TableViewCell.swift */; };
+		BEB4367F277EC3450EB953E3 /* Pods_aliceInWonderland.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4CA0145580497FF8C280D7 /* Pods_aliceInWonderland.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E393D79206AB2B70042320D /* aliceInWonderland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aliceInWonderland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E393D7C206AB2B70042320D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E393D7E206AB2B70042320D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E393D7E206AB2B70042320D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		0E393D81206AB2B70042320D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E393D83206AB2B70042320D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E393D86206AB2B70042320D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E393D88206AB2B70042320D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E393D91206AB56A0042320D /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		0E393D94206ABFFF0042320D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		0E393D97206AC2F30042320D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0E393D99206ADED80042320D /* FetchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchVC.swift; sourceTree = "<group>"; };
+		0ED70EC8206B92E500E474E9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2316E9566D462061DA8151E2 /* Pods-aliceInWonderland.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aliceInWonderland.release.xcconfig"; path = "Pods/Target Support Files/Pods-aliceInWonderland/Pods-aliceInWonderland.release.xcconfig"; sourceTree = "<group>"; };
+		4F4CA0145580497FF8C280D7 /* Pods_aliceInWonderland.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aliceInWonderland.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDAE8D64701698D472A1788 /* Pods-aliceInWonderland.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aliceInWonderland.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aliceInWonderland/Pods-aliceInWonderland.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB4367F277EC3450EB953E3 /* Pods_aliceInWonderland.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				0E393D7B206AB2B70042320D /* aliceInWonderland */,
 				0E393D7A206AB2B70042320D /* Products */,
+				34F5909659769FC00295C32E /* Pods */,
+				63205813B75D417B9B91CE58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,60 @@
 		0E393D7B206AB2B70042320D /* aliceInWonderland */ = {
 			isa = PBXGroup;
 			children = (
+				0E393D96206AC0680042320D /* Services */,
+				0E393D8F206AB4D80042320D /* View */,
+				0E393D8E206AB4C90042320D /* Controller */,
 				0E393D7C206AB2B70042320D /* AppDelegate.swift */,
-				0E393D7E206AB2B70042320D /* ViewController.swift */,
-				0E393D80206AB2B70042320D /* Main.storyboard */,
+				0E393D97206AC2F30042320D /* Constants.swift */,
 				0E393D83206AB2B70042320D /* Assets.xcassets */,
+				0E393D80206AB2B70042320D /* Main.storyboard */,
 				0E393D85206AB2B70042320D /* LaunchScreen.storyboard */,
 				0E393D88206AB2B70042320D /* Info.plist */,
 			);
 			path = aliceInWonderland;
+			sourceTree = "<group>";
+		};
+		0E393D8E206AB4C90042320D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E393D7E206AB2B70042320D /* MainVC.swift */,
+				0E393D99206ADED80042320D /* FetchVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E393D8F206AB4D80042320D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E393D91206AB56A0042320D /* RoundedButton.swift */,
+				0ED70EC8206B92E500E474E9 /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E393D96206AC0680042320D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0E393D94206ABFFF0042320D /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		34F5909659769FC00295C32E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAE8D64701698D472A1788 /* Pods-aliceInWonderland.debug.xcconfig */,
+				2316E9566D462061DA8151E2 /* Pods-aliceInWonderland.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63205813B75D417B9B91CE58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F4CA0145580497FF8C280D7 /* Pods_aliceInWonderland.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E393D8B206AB2B70042320D /* Build configuration list for PBXNativeTarget "aliceInWonderland" */;
 			buildPhases = (
+				46E785FBA883C574D4F54AF0 /* [CP] Check Pods Manifest.lock */,
 				0E393D75206AB2B70042320D /* Sources */,
 				0E393D76206AB2B70042320D /* Frameworks */,
 				0E393D77206AB2B70042320D /* Resources */,
+				C946CA94F438555C6573ED19 /* [CP] Embed Pods Frameworks */,
+				46C0CDD56913D76DFF7A9091 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +197,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46C0CDD56913D76DFF7A9091 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aliceInWonderland/Pods-aliceInWonderland-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46E785FBA883C574D4F54AF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aliceInWonderland-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C946CA94F438555C6573ED19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-aliceInWonderland/Pods-aliceInWonderland-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aliceInWonderland/Pods-aliceInWonderland-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E393D75206AB2B70042320D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E393D7F206AB2B70042320D /* ViewController.swift in Sources */,
+				0E393D98206AC2F30042320D /* Constants.swift in Sources */,
+				0E393D9A206ADED80042320D /* FetchVC.swift in Sources */,
+				0E393D7F206AB2B70042320D /* MainVC.swift in Sources */,
 				0E393D7D206AB2B70042320D /* AppDelegate.swift in Sources */,
+				0E393D95206ABFFF0042320D /* AuthService.swift in Sources */,
+				0ED70EC9206B92E500E474E9 /* TableViewCell.swift in Sources */,
+				0E393D92206AB56A0042320D /* RoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +397,7 @@
 		};
 		0E393D8C206AB2B70042320D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBDAE8D64701698D472A1788 /* Pods-aliceInWonderland.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +413,7 @@
 		};
 		0E393D8D206AB2B70042320D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2316E9566D462061DA8151E2 /* Pods-aliceInWonderland.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
